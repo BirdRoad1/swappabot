@@ -1,7 +1,7 @@
 {
-  "name": "opfinder",
+  "name": "swappa-bot",
   "version": "0.0.1",
-  "description": "oneplus finder",
+  "description": "Swappa bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
