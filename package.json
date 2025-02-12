@@ -1,0 +1,23 @@
+{
+  "name": "opfinder",
+  "version": "0.0.1",
+  "description": "oneplus finder",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "build": "yarn clean && tsc && cp package.json dist/ && cd dist/ && yarn --production=true",
+    "dev": "tsx --watch src/index.ts"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-html-parser": "^7.0.1"
+  }
+}
