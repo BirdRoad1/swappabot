@@ -2,6 +2,10 @@
 
 An easy-to-use Node.js tool that notifies you when a product of your choice is available on Swappa under a certain price.
 
+![CLI view](screenshots/cli.png)
+
+![Discord webhook message](screenshots/message.png)
+
 ## Usage
 
 Download the latest release and extract it.
